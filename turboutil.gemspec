@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.name          = "turboutil"
   gem.version       = Turboutil::VERSION
   gem.authors       = ["Brian C Sparks"]
-  gem.email         = ["brian.c.sparks@hp.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["briancsparks@gmail.com"]
+  gem.summary       = %q{Your utility grocs *nix config and command-line best practices and patterns.}
+  gem.description   = %q{Your utility grocs *nix config and command-line best practices and patterns.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
