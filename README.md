@@ -35,7 +35,11 @@ your utility.  The minimum is just to include it.  By doing only that,
 you get the $argv global variable which can be queried for what the user
 chose for the invocation's command line.
 
-    yourutil -x --bar --baz quxx --jolly=good -y- --foo
+    $ yourutil -x --bar --baz quxx --jolly=good -y- --foo
+    
+Your utility:
+
+    require 'turboutil'
 
     $argv.x       # => true
     $argv.y       # => false
